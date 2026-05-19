@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Card Vault | TCG & Collectibles</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header role="banner">
+        <nav id="main-nav">
+            <div class="logo">The Card <span>Vault</span></div>
+            
+            <ul>
+                <li><a href="shop/index.html">Shop</a></li>
+                <li><a href="grading/index.html">Grading</a></li>
+                <li><a href="about/index.html">About</a></li>
+                <li><a href="news/index.html">News</a></li>
+                <li><a href="contact/index.html">Contact</a></li> 
+            </ul>
+
+            <!-- Added Search, Sign In, and Cart Controls -->
+            <div class="nav-controls">
+                <form action="shop/index.html" method="GET" class="search-form">
+                    <input type="search" name="q" placeholder="Search cards..." aria-label="Search cards">
+                    <button type="submit" aria-label="Submit Search">🔍</button>
+                </form>
+                
+                <a href="account/login.html" class="nav-btn login-btn">Sign In</a>
+                
+                <a href="shop/cart.html" class="nav-btn cart-btn" aria-label="View Cart">
+                    🛒 <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to The Card Vault</h1>
+        <p>
+            We are the ultimate destination for tabletop gamers, collectors, and hobbyists alike. 
+            Whether you are hunting for elusive Pokémon singles, building a competitive Magic: The Gathering deck, 
+            or chasing rare sports card rookie gems, our shop offers a welcoming environment and a massive curated inventory to fuel your passion.
+        </p>
+        <button class="cta-btn">Explore Inventory</button>
+    </section>
+
+    <section class="services-container">
+        <h2 class="services-heading">Our Services</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🛒</div>
+                <h3>Buy, Sell & Trade</h3>
+                <p>Looking to offload extras or hunt down a centerpiece for your collection? Bring your cards in for competitive cash offers or store trade-in credit.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🏆</div>
+                <h3>Weekly Tournaments</h3>
+                <p>Join our thriving local community. We host official, sanctioned weekly tournaments and casual game nights for players of all skill levels.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🔍</div>
+                <h3>Authentication & Grading</h3>
+                <p>Unsure if your vintage card is real? Drop off your high-value singles with us for physical authentication and bulk PSA/BGS grading submissions.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="primary">
+        <div id="copyright">
+        &copy; 2026 The Card Vault. All rights reserved. Built for collectors, by collectors. | <a href="#top">Top</a>
+    </div>
+</footer>
+
+</body>
+</html>
